@@ -40,11 +40,11 @@ function App() {
         
         <div style={{ display: 'flex', justifyContent: 'flex-end', paddingTop: "65px", width: "100%" }}>
           <nav>
-            <a style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Play</a>
-            <a style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Landings</a>
-            <a style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Pages</a>
-            <a style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Docs</a>
-            <a style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Help</a>
+            <button style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Play</button>
+            <button style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Landings</button>
+            <button style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Pages</button>
+            <button style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Docs</button>
+            <button style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Help</button>
           </nav>        
         </div>
 
