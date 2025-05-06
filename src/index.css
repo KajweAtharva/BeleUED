@@ -1,0 +1,173 @@
+:root {
+  --bg: #f5f6fa;
+  --card-bg: #fff;
+  --text: #222;
+  --muted: #666;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+  --borderc: black;
+  --bgc: white;
+  --bgimage: url('./images/WaveLight.svg');
+  --bghero: url('./images/HeroLight.png');
+  --bgairlineticket: url('./images/AirlineTicketLight.png');
+  --bgcasestudy: url('./images/CaseStudyLight.png');
+  --bgcta: url('./images/ctaLight.png');
+  --booterbg: url('./images/Base.png');
+}
+
+[data-theme="dark"] {
+  --bg: #0B0F14;
+  --card-bg: #232a36;
+  --text: #f5f6fa;
+  --muted: #b0b8c1;
+  --accent: #60a5fa;
+  --border: #2c3440;
+  --borderc: white;
+  --bgc: black;
+  --bgimage: url('./images/WaveDark.svg');
+  --bghero: url('./images/Hero.png');
+  --bgairlineticket: url('./images/AirlineTicket.png');
+  --bgcasestudy: url('./images/CaseStudy.png');
+  --bgcta: url('./images/ctaDark.png');
+  --booterbg: url('./images/Base.png');
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.parent {
+  position: relative;
+  background-image: var(--bghero);
+}
+
+.AirlineTicket123{
+  background-image: var(--bgairlineticket);
+}
+
+
+.casestudy{
+  background-image: var(--bgcasestudy) ;
+}
+
+
+.wave {
+    content: var(--bgimage);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  border: 1px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+
+.header{
+  background: var(--card-bg);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+
+.toggle-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+.in {
+  background-color: var(--bgc);
+  border-color: var(--borderc);
+  color: var(--text);
+  height: 40px;
+  width: 500px;
+  padding: 10px 90px 10px 20px;
+  border-radius: 8px 0 0 8px;
+}
+
+.search-wrapper {
+  position: relative;
+  width: 300px;
+  margin-top: 20px;
+}
+
+
+.search-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background-color: var(--bgc);
+  border-color: var(--borderc);
+  color: var(--text);
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.Airline {
+  color: var(--accent);
+}
+
+.popularArticle{
+  background-color: #b8ffae;
+  color: #119100;
+}
+
+.Btn{
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.CTA{
+  background-image: var(--bgcta);
+  background-position: absolute;
+}
+
+
+.inf{
+  
+  image-rendering: var(--bgcta);
+  position: absolute;
+  top: 481%;
+  left: 10.3%;
+  border-radius: 8px;
+  background-color: var(--bg);
+  height: 55px;
+  width: 450px;
+  border: 2px solid white;
+  padding-left: 15px ;
+  font-size: 20px;
+  
+}
+
+.butf{
+  position: absolute;
+  top: 481%;
+  left: 35%;
+  border-radius: 8px;
+  background-color: var(--bg);
+  height: 58px;
+  width: 150px;
+  border-color: var(--borderc);
+  border: 2px solid;
+  color: var(--text);
+  font-size: 20px;
+}
+
+.footerimg{
+  background-image: var(--booterbg) ;
+}
+
+.top{
+  padding-top: 50px;
+}
