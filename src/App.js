@@ -39,13 +39,13 @@ function App() {
         </div>
         
         <div style={{ display: 'flex', justifyContent: 'flex-end', paddingTop: "65px", width: "100%" }}>
-          <nav>
-            <button style={{ backgroundColor: 'transparent', border: '1px solid white', width: "200px", height: "50px", fontSize: "1.2rem", color: "white", borderRadius:"8px" }}>Play</button>
-            <button style={{ backgroundColor: 'transparent', border: '1px solid white', width: "200px", height: "50px", fontSize: "1.2rem", color: "white", borderRadius:"8px" }}>Landings</button>
-            <button style={{ backgroundColor: 'transparent', border: '1px solid white', width: "200px", height: "50px", fontSize: "1.2rem", color: "white", borderRadius:"8px" }}>Pages</button>
-            <button style={{ backgroundColor: 'transparent', border: '1px solid white', width: "200px", height: "50px", fontSize: "1.2rem", color: "white", borderRadius:"8px" }}>Docs</button>
-            <button style={{ backgroundColor: 'transparent', border: '1px solid white', width: "200px", height: "50px", fontSize: "1.2rem", color: "white", borderRadius:"8px" }}>Help</button>
-          </nav>        
+          <div style={{display:"flex", justifyContent:"center", flexDirection:"row"}}>
+            <div style={{ backgroundColor: 'transparent', width: "100px", height: "50px", fontSize: "1.2rem", color: "white", }}>Play</div>
+            <div style={{ backgroundColor: 'transparent', width: "140px", height: "50px", fontSize: "1.2rem", color: "white", }}>Landings</div>
+            <div style={{ backgroundColor: 'transparent', width: "100px", height: "50px", fontSize: "1.2rem", color: "white", }}>Pages</div>
+            <div style={{ backgroundColor: 'transparent', width: "100px", height: "50px", fontSize: "1.2rem", color: "white", }}>Docs</div>
+            <div style={{ backgroundColor: 'transparent', width: "100px", height: "50px", fontSize: "1.2rem", color: "white", }}>Help</div>
+          </div>        
         </div>
 
         <div style={{ padding: "52px 5px 5px 5px", width: "200px" }}>
