@@ -12,7 +12,6 @@ import AllArticle2 from "./images/AllArticle2.png";
 import AllArticle3 from "./images/AllArticle3.png";
 import AllArticle4 from "./images/AllArticle4.png";
 import AllArticle5 from "./images/AllArticle5.png";
-import CTAlight from "./images/ctaLight.png";
 import CTAdark from "./images/ctaDark.png";
 import Top from "./images/Top.png";
 function App() {
@@ -41,11 +40,11 @@ function App() {
         
         <div style={{ display: 'flex', justifyContent: 'flex-end', paddingTop: "65px", width: "100%" }}>
           <nav>
-            <a href="#" style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Play</a>
-            <a href="#" style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Landings</a>
-            <a href="#" style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Pages</a>
-            <a href="#" style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Docs</a>
-            <a href="#" style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Help</a>
+            <a style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Play</a>
+            <a style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Landings</a>
+            <a style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Pages</a>
+            <a style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Docs</a>
+            <a style={{ margin: "0 12px", textDecoration: "none", fontSize: "1.2rem", color: "white", paddingRight: "25px" }}>Help</a>
           </nav>        
         </div>
 
